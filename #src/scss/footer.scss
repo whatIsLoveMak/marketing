@@ -1,0 +1,40 @@
+.footer .container {
+    border-top: 1px solid #ACB5BD;
+}
+
+.container {}
+
+.footer__links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.footer__link:not(:last-child) {
+    margin-right: 24px;
+    @media(max-width: 767px) {
+        margin-right: 0px;
+    }
+}
+
+.footer__link {
+    margin-bottom: 16px;
+}
+
+.footer__link a {
+    color: #ACB5BD;
+}
+
+.footer__imagine {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.footer__imagine svg {
+    width: 100px;
+    height: 45px;
+    fill: #495057;
+}
